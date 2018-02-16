@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{0f2e1e6b-6018-4386-972b-a332884d53ef}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{5072df06-bfa7-42f5-9880-529b25af3e75}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{d3968d0b-3adb-4449-845a-f4ae97410689}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\CORE">
+      <UniqueIdentifier>{6cae158b-ce6e-4052-a868-3d5f914ae6bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Startup">
+      <UniqueIdentifier>{835db78f-ee08-4098-ad37-12fa1525ddab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL">
+      <UniqueIdentifier>{776c9d81-badd-42a9-90e2-1a19e59101ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\COMMON">
+      <UniqueIdentifier>{ec0c0ce4-6923-4249-8931-924c97e1f572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\ADC">
+      <UniqueIdentifier>{1ac3d069-0364-43ce-9f84-5e928af7a21a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\RCC">
+      <UniqueIdentifier>{b910ca67-637b-4119-92cc-9f7b736ce112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\CORTEX">
+      <UniqueIdentifier>{3119027e-5256-4b36-a7ee-97023c1ee973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\TIM">
+      <UniqueIdentifier>{befb7328-2463-41f2-b7b2-7030c7bdcba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\UART">
+      <UniqueIdentifier>{c2513c11-845e-4ba0-8722-487dd6ef1e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\DMA">
+      <UniqueIdentifier>{afddbc58-5774-48a9-a5b4-e18fa43f98db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\PWR">
+      <UniqueIdentifier>{ad9b61f5-3387-40f5-9f16-6566eb76811b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\FLASH">
+      <UniqueIdentifier>{0273ead7-0b39-4581-bd38-92214b508cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\STM32Cube HAL\GPIO">
+      <UniqueIdentifier>{2bf8a817-12d7-4788-959f-257d1fbacdb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{f91b92ac-a46d-4211-acbd-015746d83a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CORE">
+      <UniqueIdentifier>{05d49100-d0b3-405b-ac93-3862fcbfe268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Startup">
+      <UniqueIdentifier>{424e4c70-5ab9-472d-a2c1-09317678fc9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL">
+      <UniqueIdentifier>{d6da8469-2752-48d3-9601-430c77386867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\COMMON">
+      <UniqueIdentifier>{44ab103a-cd2e-416d-9f7f-24569ae79c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\ADC">
+      <UniqueIdentifier>{d84bff22-6d6b-4208-86f2-964dffb5442a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\RCC">
+      <UniqueIdentifier>{2387130a-b17f-4a6d-98c0-40d7de6e3264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\CORTEX">
+      <UniqueIdentifier>{37bd2732-4816-4c2c-ad95-53ef343e6b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\TIM">
+      <UniqueIdentifier>{f13b4aa2-544a-4c58-9c63-5088dbd30ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\UART">
+      <UniqueIdentifier>{aac668c9-67d1-46d0-b0e2-ccd83fa61f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\DMA">
+      <UniqueIdentifier>{37d6161e-88fa-47bd-98d9-793b8bb10366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\PWR">
+      <UniqueIdentifier>{080f17bf-b1cf-424f-8e39-d203f8b25219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\FLASH">
+      <UniqueIdentifier>{11225a64-e9e5-4e1b-b0a2-174ada71e963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\STM32Cube HAL\GPIO">
+      <UniqueIdentifier>{c3e8a508-025e-4255-bc70-06815cbe5850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{4ad1fe27-bd68-4f8f-a072-c0e864706474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{3806ef35-ff1f-4cc4-b861-a3d5b894d3d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Src\stm32f4xx_it.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Src\stm32f4xx_hal_msp.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Src\main.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c">
+      <Filter>Source files\Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c">
+      <Filter>Source files\STM32Cube HAL\COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c">
+      <Filter>Source files\STM32Cube HAL\ADC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c">
+      <Filter>Source files\STM32Cube HAL\ADC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c">
+      <Filter>Source files\STM32Cube HAL\RCC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c">
+      <Filter>Source files\STM32Cube HAL\RCC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c">
+      <Filter>Source files\STM32Cube HAL\CORTEX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c">
+      <Filter>Source files\STM32Cube HAL\TIM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c">
+      <Filter>Source files\STM32Cube HAL\TIM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c">
+      <Filter>Source files\STM32Cube HAL\UART</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c">
+      <Filter>Source files\STM32Cube HAL\DMA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c">
+      <Filter>Source files\STM32Cube HAL\DMA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c">
+      <Filter>Source files\STM32Cube HAL\PWR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c">
+      <Filter>Source files\STM32Cube HAL\PWR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c">
+      <Filter>Source files\STM32Cube HAL\FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c">
+      <Filter>Source files\STM32Cube HAL\FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c">
+      <Filter>Source files\STM32Cube HAL\FLASH</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c">
+      <Filter>Source files\STM32Cube HAL\GPIO</Filter>
+    </ClCompile>
+    <None Include="stm32.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClCompile Include="$(BSP_ROOT)\STM32F4xxxx\StartupFiles\startup_stm32f411xe.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Inc\stm32f4xx_it.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Inc\stm32f4xx_hal_conf.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Inc\main.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\CMSIS\Include\core_cm4.h">
+      <Filter>Header files\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h">
+      <Filter>Header files\Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h">
+      <Filter>Header files\Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h">
+      <Filter>Header files\STM32Cube HAL\COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h">
+      <Filter>Header files\STM32Cube HAL\COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h">
+      <Filter>Header files\STM32Cube HAL\COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h">
+      <Filter>Header files\STM32Cube HAL\ADC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h">
+      <Filter>Header files\STM32Cube HAL\ADC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h">
+      <Filter>Header files\STM32Cube HAL\RCC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h">
+      <Filter>Header files\STM32Cube HAL\RCC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h">
+      <Filter>Header files\STM32Cube HAL\CORTEX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h">
+      <Filter>Header files\STM32Cube HAL\TIM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h">
+      <Filter>Header files\STM32Cube HAL\TIM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h">
+      <Filter>Header files\STM32Cube HAL\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h">
+      <Filter>Header files\STM32Cube HAL\DMA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h">
+      <Filter>Header files\STM32Cube HAL\DMA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h">
+      <Filter>Header files\STM32Cube HAL\PWR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h">
+      <Filter>Header files\STM32Cube HAL\PWR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h">
+      <Filter>Header files\STM32Cube HAL\FLASH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h">
+      <Filter>Header files\STM32Cube HAL\FLASH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h">
+      <Filter>Header files\STM32Cube HAL\FLASH</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h">
+      <Filter>Header files\STM32Cube HAL\GPIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Documents\cube\projects\scan_test_04_12_2017\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h">
+      <Filter>Header files\STM32Cube HAL\GPIO</Filter>
+    </ClInclude>
+    <None Include="newmultiadc-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="newmultiadc-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="stm32.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>

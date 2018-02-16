@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "newmultiadc", "newmultiadc\newmultiadc.vcxproj", "{5CFF62D7-3672-483C-9DF3-421497F1D98A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CFF62D7-3672-483C-9DF3-421497F1D98A}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{5CFF62D7-3672-483C-9DF3-421497F1D98A}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{5CFF62D7-3672-483C-9DF3-421497F1D98A}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{5CFF62D7-3672-483C-9DF3-421497F1D98A}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA8178E8-DF5B-4CAA-A951-76DD7D56E842}
+	EndGlobalSection
+EndGlobal
